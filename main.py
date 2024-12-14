@@ -76,7 +76,7 @@ while True:
 
     hours=datetime[4]
     minutes=datetime[5]
-    seconds=datetime[6]
+    seconds=datetime[6]+1
 
     if seconds%60==0 and minutes%5==0:
         print('   Minute:', minutes)
