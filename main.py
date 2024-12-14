@@ -9,7 +9,7 @@ import neopixel
 import machine
 import owntime
 
-
+#Update-Folder PlattUhrWohnMobil
 firmware_url="https://raw.githubusercontent.com/Sabine127/PicoOTA_PUWM/"
 
 ota_updater = OTAUpdater(SSID, PASSWORD, firmware_url, "main.py")
