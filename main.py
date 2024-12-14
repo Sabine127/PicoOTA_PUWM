@@ -78,7 +78,7 @@ while True:
     minutes=datetime[5]
     seconds=datetime[6]+1
 
-    if seconds%60==0 and minutes%5==0:
+    if (seconds-1)%60==0 and minutes%5==0:
         print('   Minute:', minutes)
         print('  Sekunde:', seconds)
         print('SecVonHour: ',sec_von_hour)
